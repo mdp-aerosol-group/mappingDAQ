@@ -1,0 +1,10 @@
+[deps]
+AdafruitUltimateGPS = "4fe4fcc7-c8f5-4bd9-9e9b-47d3a0e00d04"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+Chain = "8be319e6-bccf-4806-a6f7-6fae938471bc"
+CondensationParticleCounters = "2adfc2c7-75f2-4d70-8938-a2b68ce5239c"
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+LibSerialPort = "a05a14c7-6e3b-5ba9-90a2-45558833e1df"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Reactive = "a223df75-4e93-5b7c-acf9-bdd599c0f4de"
