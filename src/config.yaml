@@ -1,0 +1,42 @@
+project: EPA     
+
+serial:
+    CPC1: /dev/ttyUSB0    # PORT designation for POPS
+    CPC2:  /dev/ttyUSB1   # PORT designation for DMT CCN
+    CPC3:  /dev/ttyUSB2   # PORT designation for CPC
+    GPS:  /dev/ttyUSB3    # PORT designation for AdaFruit
+    Sonic:  /dev/ttyUSB4   # PORT designation for Sonic Anemometer
+
+LJ:
+    ID: -1               # ID of Labjack, -1 == first found
+    AIN:                 # Designation of Ana
+        Vp: 0            # 
+        Ip: 3            # 
+        Vn: 2            # 
+        In: 1            # 
+        T: 5             #
+        RH: 4            # 
+    FIO:
+        counter1: 0      # FIO0 is a counter
+        counter2: 1      # FIO1 is a counter
+        Tick_DAC: 2      # FIO2 and FIO3 is a LJTick-DAC
+
+CPC1:
+    model: TSI3776c      # CPC1 used in system
+
+CPC2:
+    model: TSI3022       # CPC3 used in system
+
+CPC3:
+    model: TSI3771       # CPC3 used in system
+
+DMA:                     # Configuration of DMA
+    model: RDMA          # TSI Long Column
+    Qsh: 5.0             # Sheath flow [L min-1]
+    Qsa: 1.5             # Sample flow [L min-1]
+    T: 22.0              # Temperature [degree C]
+    p: 101315.0          # Pressure [Pa]
+    polarity: "-"        # Negative Polarity
+
+GUI:
+    config: gui.glade
